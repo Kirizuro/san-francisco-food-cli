@@ -1,7 +1,7 @@
 {
   "name": "san-francisco-food-cli",
   "description": "A CLI to get information about the best food in San Francisco",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/index.js",
   "license": "MIT",
   "type": "module",
