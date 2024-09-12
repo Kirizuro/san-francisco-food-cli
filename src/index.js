@@ -1,6 +1,5 @@
 import axios from "axios";
 
-import { promisify } from "util";
 import arg from "arg";
 
 const argumentsAsOptions = (rawArgs) => {
@@ -8,9 +7,11 @@ const argumentsAsOptions = (rawArgs) => {
     "--help": Boolean,
     "--type": String,
     "--address": String,
+    "--name": String,
     "-h": "--help",
     "-t": "--type",
     "-a": "--address",
+    "-n": "--name",
   });
 
   return {
