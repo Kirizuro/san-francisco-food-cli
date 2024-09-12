@@ -1,0 +1,23 @@
+{
+  "name": "san-francisco-food-cli",
+  "description": "A CLI to get information about the best food in San Francisco",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "arg": "^5.0.2",
+    "axios": "^1.7.7",
+    "esm": "^3.2.25"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "bin": {
+    "sanFransFood": "./src/cli.js"
+  },
+  "author": {
+    "name": "Claudio Junior",
+    "email": "claudio.junior14@hotmail.com"
+  }
+}
